@@ -2,13 +2,15 @@
 <html>
     <head>
         <title>Personal Portfolio Webpage</title>
-        <link rel="stylesheet" href="" type="text/css">
+        <link rel="stylesheet" href="styles/style.css" type="text/css">
         <script src="https://kit.fontawesome.com/57bf098a3b.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <section id="welcome-section">
-            <h1>I am Klaudia</h1>
-            <h3>Computer science student</h3>
+            <div id="welcome-text">
+                <h1>Hi! I am Klaudia</h1>
+                <h3>Computer science student</h3>
+            </div>
         </section>
         <section id="projects">
             <h1>My projects:</h1>
@@ -31,11 +33,13 @@
             <a id="profile-link" href="https://github.com/RaniTamaro" target="_blank"><i class="fab fa-github"></i></i> Github</a>
         </section>
 
-        <ul id="navibar">
-            <li><a class="navi-link" href="#welcome-section">About</a></li>
-            <li><a class="navi-link" href="#projects">Work</a></li>
-            <li><a class="navi-link" href="#contact">Contact</a></li>
-        </ul>
+        <nav id="navibar">
+            <ul id="navi-list">
+                <li><a class="navi-link" href="#welcome-section">About</a></li>
+                <li><a class="navi-link" href="#projects">Work</a></li>
+                <li><a class="navi-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
 
         <footer>
             <p>It's a simple portfolio for challange <i class="far fa-smile"></i></p>

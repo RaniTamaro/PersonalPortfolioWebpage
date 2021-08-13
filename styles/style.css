@@ -1,0 +1,73 @@
+html, body {
+    font-size: 20px;
+    color: #FFF;
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+}
+
+#navibar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 0;
+    background-color: #510D0A;
+}
+
+#navi-list{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.navi-link {
+    text-decoration: none;
+    color: #FFF;
+    padding: 0.5em;
+    display: block;
+}
+
+.navi-link:hover {
+    color: #bbd8b3;
+}
+
+#welcome-section {
+    background-color: #191102;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+#welcome-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#welcome-text h1{
+    font-size: 70px;
+    padding: 0;
+    margin: 0;
+}
+
+#welcome-text h3{
+    font-style: italic;
+    color: #F3B61F;
+}
+
+
+@media (max-width: 600px) {
+    #navi-list{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .navi-link{
+        display: block;
+        border: 1px solid #3a0a07;
+    }
+}
