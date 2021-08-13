@@ -82,6 +82,7 @@ html, body {
 #projects {
     background-color: #A29F15;
     margin-top: -25px;
+    padding-bottom: 2em;
     text-align: center;
 }
 
@@ -99,14 +100,63 @@ html, body {
 
 .project-tile{
     border: 1px solid #000;
+    background-color: #510D0A;
 }
 
 .project-tile a{
+    margin-top: 1em;
     text-decoration: none;
     color: #FFF;
+}
+
+.project-tile a:hover{
+    color:#F3B61F;
 }
 
 .project-tile img{
     height: calc(100% - 2em);
     width: 100%;
+}
+
+#button{
+    background-color: #510D0A;
+    text-decoration: none;
+    color: #FFF;
+    padding: 0.5em;
+    border: 1px solid #000;
+}
+
+#button:hover{
+    color:#F3B61F;
+}
+
+/* --- Contact --- */
+
+#contact{
+    background-color: #191102;
+    margin-top: -25px;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+#contact h1{
+    padding-top: 1em;
+}
+
+#profile-link{
+    text-decoration: none;
+    color: #FFF;
+    padding-top: 0;
+}
+
+#profile-link:hover{
+    color: #F3B61F;
+}
+
+/* --- Footer --- */
+footer{
+    background-color: #191102;
+    margin-top: -25px;
+    padding: 0.5em;
+    border-top: 2px solid #510D0A;
 }
